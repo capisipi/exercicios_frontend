@@ -1,0 +1,198 @@
+/* 
+  :host representa o componente Angular inteiro.
+*/
+:host {
+
+    /* 
+      display: block
+      Faz o componente ocupar uma linha inteira.
+    */
+    display: block;
+
+    /* 
+      padding
+      Espaço interno do componente.
+    */
+    padding: 20px;
+
+    /* 
+      background-color
+      Cor de fundo do componente.
+    */
+    background-color: #f4f4f4;
+
+    /* 
+      border-radius
+      Arredonda os cantos.
+    */
+    border-radius: 8px;
+
+    /* 
+      width
+      Define largura máxima do componente.
+    */
+    width: 350px;
+}
+
+/* 
+  Estilo do título
+*/
+h2 {
+
+    /* 
+      Remove margem padrão.
+    */
+    margin: 0;
+
+    /* 
+      Cor do texto.
+    */
+    color: #333;
+}
+
+/* 
+  Estilo do parágrafo
+*/
+p {
+
+    /* 
+      Espaçamento externo.
+      
+      10px em cima
+      0 lados
+      20px em baixo
+    */
+    margin: 10px 0 20px;
+
+    /* 
+      Cor do texto.
+    */
+    color: #666;
+}
+
+/* 
+  Estilo do formulário
+*/
+form {
+
+    /* 
+      display: flex
+      Ativa o Flexbox.
+    */
+    display: flex;
+
+    /* 
+      flex-direction: column
+      Organiza os elementos na vertical.
+    */
+    flex-direction: column;
+
+    /* 
+      gap
+      Cria espaço entre os elementos.
+    */
+    gap: 12px;
+}
+
+/* 
+  Estilo dos inputs
+*/
+input {
+
+    /* 
+      padding
+      Espaço interno do input.
+    */
+    padding: 10px;
+
+    /* 
+      border
+      Cria borda no input.
+    */
+    border: 1px solid #bbb;
+
+    /* 
+      border-radius
+      Arredonda os cantos.
+    */
+    border-radius: 6px;
+
+    /* 
+      font-size
+      Tamanho do texto.
+    */
+    font-size: 14px;
+}
+
+/* 
+  Quando clicas no input
+*/
+input:focus {
+
+    /* 
+      outline: none
+      Remove a borda azul padrão do navegador.
+    */
+    outline: none;
+
+    /* 
+      border-color
+      Muda a cor da borda.
+    */
+    border-color: #666;
+}
+
+/* 
+  Estilo do botão
+*/
+button {
+
+    /* 
+      padding
+      Espaço interno do botão.
+    */
+    padding: 10px;
+
+    /* 
+      Remove borda padrão.
+    */
+    border: none;
+
+    /* 
+      Cor de fundo do botão.
+    */
+    background-color: #333;
+
+    /* 
+      Cor do texto.
+    */
+    color: white;
+
+    /* 
+      Arredonda cantos.
+    */
+    border-radius: 6px;
+
+    /* 
+      cursor: pointer
+      Mostra mãozinha ao passar o rato.
+    */
+    cursor: pointer;
+
+    /* 
+      font-size
+      Tamanho do texto.
+    */
+    font-size: 14px;
+}
+
+/* 
+  Hover = rato por cima do botão
+*/
+button:hover {
+
+    /* 
+      Muda a cor do botão.
+    */
+    background-color: #555;
+}

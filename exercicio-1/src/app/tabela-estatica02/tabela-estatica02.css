@@ -1,0 +1,157 @@
+/* 
+  :host representa o componente Angular inteiro.
+*/
+:host {
+
+    /* 
+      display: block
+      Faz o componente ocupar uma linha inteira.
+    */
+    display: block;
+
+    /* 
+      padding: 20px
+      Cria espaço interno entre a borda e o conteúdo.
+    */
+    padding: 20px;
+
+    /* 
+      background-color
+      Define a cor de fundo do componente.
+    */
+    background-color: #f4f4f4;
+
+    /* 
+      border-radius
+      Arredonda os cantos.
+    */
+    border-radius: 8px;
+}
+
+/* 
+  Estilo do título h2
+*/
+h2 {
+
+    /* 
+      margin: 0
+      Remove a margem automática do navegador.
+    */
+    margin: 0;
+
+    /* 
+      color
+      Define a cor do texto.
+    */
+    color: #333;
+}
+
+/* 
+  Estilo do parágrafo
+*/
+p {
+
+    /* 
+      margin
+      Define espaço externo.
+      
+      10px em cima
+      0 dos lados
+      20px em baixo
+    */
+    margin: 10px 0 20px;
+
+    /* 
+      Cor do texto
+    */
+    color: #666;
+}
+
+/* 
+  Estilo da tabela
+*/
+table {
+
+    /* 
+      width: 100%
+      Faz a tabela ocupar toda a largura disponível.
+    */
+    width: 100%;
+
+    /* 
+      border-collapse: collapse
+      Junta as bordas das células.
+    */
+    border-collapse: collapse;
+
+    /* 
+      Fundo branco da tabela
+    */
+    background-color: white;
+}
+
+/* 
+  Estilo do cabeçalho da tabela
+*/
+thead {
+
+    /* 
+      Cor de fundo do cabeçalho
+    */
+    background-color: #dcdcdc;
+}
+
+/* 
+  Estilo das células da tabela
+  th = cabeçalhos
+  td = dados
+*/
+th,
+td {
+
+    /* 
+      border
+      Cria borda nas células.
+      
+      1px = espessura
+      solid = linha contínua
+      #bbb = cor
+    */
+    border: 1px solid #bbb;
+
+    /* 
+      padding
+      Espaço interno das células.
+    */
+    padding: 12px;
+
+    /* 
+      text-align
+      Alinha o texto à esquerda.
+    */
+    text-align: left;
+}
+
+/* 
+  Estilo das linhas do corpo da tabela
+*/
+tbody tr {
+
+    /* 
+      Cor de fundo das linhas
+    */
+    background-color: #fafafa;
+}
+
+/* 
+  :hover
+  Aplica estilo quando o rato passa por cima.
+*/
+tbody tr:hover {
+
+    /* 
+      Muda a cor da linha
+      ao passar o rato.
+    */
+    background-color: #eeeeee;
+}
