@@ -1,0 +1,39 @@
+<H2>LISTAS</H2>
+<p>Depois, falamos sobre a tag de listas.</p>
+<p>Esta é a minha <strong>lista não ordenada estática:</strong></p>
+<ul>
+    <li>Linha 1</li>
+    <li>Linha 2</li>
+    <li>Linha 3</li>
+    <li>Linha 4</li>
+    <li>Linha 5</li>
+</ul>
+
+<p>Esta é a minha <strong>lista ordenada estática:</strong></p>
+<ol>
+    <li>Linha 1</li>
+    <li>Linha 2</li>
+    <li>Linha 3</li>
+    <li>Linha 4</li>
+    <li>Linha 5</li>
+</ol>
+
+<!-- bom usar a dinâmica em vez da estática porque normalmente a lista vem do backent -->
+<p>Esta é a minha <strong>lista não ordenada dinâmica:</strong></p>
+<ul>
+     <!-- interpolação no Angualar é chamado de propertyBind {{}} (passar dados) -->
+    @for (item of this.minhalista; track $index) {
+        <li>"minhalista:" {{ item }}</li>
+    }
+
+</ul>
+
+<p>Esta é a minha <strong>lista ordenada dinâmica:</strong> </p>
+<ol>
+    <!-- interpolação no Angualar é chamado de propertyBind {{}} (passar dados) -->
+    @for (item of this.minhalistaJS; track $index) {
+        <li>{{item + "Minha Lista"}}</li>
+    }
+
+    
+</ol>
