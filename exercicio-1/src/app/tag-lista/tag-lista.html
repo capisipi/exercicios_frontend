@@ -1,6 +1,6 @@
 <H2>LISTAS</H2>
-<p>Depois, falamos sobre a tag de listas.</p>
-<p>Esta é a minha <strong>lista não ordenada estática:</strong></p>
+<p>Depois, falamos sobre a tag de listas. Servem para organizar informações em forma de itens.</p>
+<p>Esta é a minha <strong>lista não ordenada estática:</strong> <br>usa marcadores (bolinhas).</p>
 <ul>
     <li>Linha 1</li>
     <li>Linha 2</li>
@@ -9,7 +9,7 @@
     <li>Linha 5</li>
 </ul>
 
-<p>Esta é a minha <strong>lista ordenada estática:</strong></p>
+<p>Esta é a minha <strong>lista ordenada estática:</strong> <br>usa números automaticamente.</p>
 <ol>
     <li>Linha 1</li>
     <li>Linha 2</li>
@@ -19,7 +19,7 @@
 </ol>
 
 <!-- bom usar a dinâmica em vez da estática porque normalmente a lista vem do backent -->
-<p>Esta é a minha <strong>lista não ordenada dinâmica:</strong></p>
+<p>Esta é a minha <strong>lista não ordenada dinâmica:</strong> <br> As listas dinâmicas em Angular são listas criadas automaticamente a partir de dados guardados no componente TypeScript, em vez de escrever manualmente cada item no HTML.</p>
 <ul>
      <!-- interpolação no Angualar é chamado de propertyBind {{}} (passar dados) -->
     @for (item of this.minhalista; track $index) {

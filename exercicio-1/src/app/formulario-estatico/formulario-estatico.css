@@ -8,7 +8,7 @@
       Faz o componente ocupar uma linha inteira.
     */
     display: block;
-
+margin-top: 30PX;
     /* 
       padding
       Espaço interno do componente.
@@ -19,7 +19,7 @@
       background-color
       Cor de fundo do componente.
     */
-    background-color: #f4f4f4;
+    background-color: #f1cbf6;
 
     /* 
       border-radius
